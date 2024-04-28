@@ -1,0 +1,2 @@
+1. The bug was that num1 and num2 are strings and they were used as arguments of calculateSum, so string concatenation is performed on num1 + num2.
+2. We can fix this bug by casting num1 and num2 to a number before calling calculateSum.

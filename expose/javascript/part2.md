@@ -25,8 +25,6 @@
     | F | 0 | false and null are converted to 0 and 0 + 0 is calculated |
     | G | '3undefined' | undefined is converted to 'undefined' and string concatenation is performed |
     | H | NaN | '3' is converted to 3 and undefined is converted to NaN and 3 + NaN is calculated |
-
-
 14. | | output | explanation |
     |---|---|---|
     | A | true | '2' is converted to 2 and 2 > 1 is true |
