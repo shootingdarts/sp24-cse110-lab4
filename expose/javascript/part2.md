@@ -36,3 +36,13 @@
     | E | false | true is converted to 1 and 1 != 2 |
     | F | true | Boolean(2) returns true and true === true |
 15. If `==` is performed on different types, JS auto converts them to numbers and compares. `===` checks comparison without type conversion.
+16. [Code here](part2-question16.js)
+17. The result from the function call would be an array of [2, 4, 6]. The function modifyArray takes the array [1, 2, 3] and loop through each element and using it as an argument of the doSomething function that returns the input * 2. Then it uses these outputs from doSomething and creates a new array that is returned. 
+18. [Code here](part2-question18.js)
+19. 1
+    
+    4
+    
+    3
+    
+    2
